@@ -1,6 +1,8 @@
 # vuepress-plugin-md-tags
 
-适用于 [vuepress@1.x](https://vuepress.vuejs.org/zh/plugin/using-a-plugin.html) 的插件
+vuepress@1.x文档tag插件
+
+适用于 [vuepress@1.x](https://vuepress.vuejs.org/zh/plugin/using-a-plugin.html) 的插件，参考tag样式可以查看 [link here](https://herrylo.github.io/front/2021-06-23.html)，配置代码参考[link here](https://github.com/HerryLo/BlogPress/blob/master/docs/.vuepress/config.js#L225)
 
 当然这需要你的这个页面顶部有 [Front Matter](https://vuepress.vuejs.org/zh/guide/frontmatter.html#front-matter), 本插件使用了官方预定义的 [内置搜索中的 `tags`](https://vuepress.vuejs.org/zh/theme/default-theme-config.html#%E5%86%85%E7%BD%AE%E6%90%9C%E7%B4%A2)
 来渲染。
@@ -18,8 +20,6 @@ tags:
 ## Install
 
 ```bash
-yarn add vuepress-plugin-md-tags
-# OR 
 npm install vuepress-plugin-md-tags
 ```
 
