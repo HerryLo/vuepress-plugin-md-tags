@@ -23,7 +23,7 @@ tags:
 npm install vuepress-plugin-md-tags
 ```
 
-> open npm : https://www.npmjs.com/package/vuepress-plugin-tags
+> open npm : https://www.npmjs.com/package/vuepress-plugin-md-tags
 
 ## Usage
 
