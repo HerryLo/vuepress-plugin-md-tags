@@ -1,5 +1,9 @@
 # vuepress-plugin-md-tags
 
+> npm : https://www.npmjs.com/package/vuepress-plugin-md-tags
+
+## Intro
+
 vuepress@1.x文档tag插件
 
 适用于 [vuepress@1.x](https://vuepress.vuejs.org/zh/plugin/using-a-plugin.html) 的插件，参考tag样式可以查看 [link here](https://herrylo.github.io/front/2021-06-23.html)，配置代码参考[link here](https://github.com/HerryLo/BlogPress/blob/master/docs/.vuepress/config.js#L225)
@@ -22,8 +26,6 @@ tags:
 ```bash
 npm install vuepress-plugin-md-tags
 ```
-
-> open npm : https://www.npmjs.com/package/vuepress-plugin-md-tags
 
 ## Usage
 
@@ -55,10 +57,10 @@ module.exports = {
 
 type 有如下的选项：
 
-- default 默认主题，与 vuepress 官方默认主题颜色一致；其他的 5 个则是不同的语义主题
+- rainbow : 彩虹主题 目前不支持自定义
+- default 设置后，才可以定义修改颜色；与 vuepress 官方默认主题颜色一致；
 - primary : 语义主题
 - success : 语义主题
 - info : 语义主题
 - warning : 语义主题
 - danger : 语义主题
-- rainbow : 彩虹主题 目前不支持自定义
