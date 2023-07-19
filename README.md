@@ -1,13 +1,11 @@
 # vuepress-plugin-md-tags
 
-适用于 [vuepress](https://vuepress.vuejs.org/zh/plugin/using-a-plugin.html) 插件的插件
+适用于 [vuepress@1.x](https://vuepress.vuejs.org/zh/plugin/using-a-plugin.html) 的插件
 
-当然这需要你的这个页面顶部有 [Front Matter](https://vuepress.vuejs.org/zh/guide/frontmatter.html#front-matter),
-
-本插件使用了官方预定义的 [内置搜索中的 `tags`](https://vuepress.vuejs.org/zh/theme/default-theme-config.html#%E5%86%85%E7%BD%AE%E6%90%9C%E7%B4%A2)
+当然这需要你的这个页面顶部有 [Front Matter](https://vuepress.vuejs.org/zh/guide/frontmatter.html#front-matter), 本插件使用了官方预定义的 [内置搜索中的 `tags`](https://vuepress.vuejs.org/zh/theme/default-theme-config.html#%E5%86%85%E7%BD%AE%E6%90%9C%E7%B4%A2)
 来渲染。
 
-那么上图的 Front Matter 对应如下
+Front Matter 对应如下
 
 ```
 ---
@@ -47,7 +45,7 @@ module.exports = {
       color: '#42b983',  // 标签字体颜色
       border: '1px solid #e2faef', // 标签边框颜色
       backgroundColor: '#f0faf5', // 标签背景颜色
-      selector: '.page .content__default h1' // ^v1.0.1 你要将此标签渲染挂载到哪个元素后面？默认是第一个 H1 标签后面；可以提供 `document.querySelectorAll()` 支持的选择语法，将标签挂载该元素后面
+      selector: '.page .content__default h1'
     }]
   ]
 }

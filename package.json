@@ -1,11 +1,20 @@
 {
   "name": "vuepress-plugin-md-tags",
   "version": "1.0.0",
-  "description": "",
+  "description": "vuepress@1.x plugin",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Herrylo",
-  "license": "ISC"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Herrylo/vuepress-plugin-md-tags.git"
+  },
+  "keywords": ["vuepress@1.x", "vuepress-plugin", "tags"],
+  "author": "herrylo3",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Herrylo/vuepress-plugin-md-tags/issues"
+  },
+  "homepage": "https://github.com/Herrylo/vuepress-plugin-md-tags"
 }
