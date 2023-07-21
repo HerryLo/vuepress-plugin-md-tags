@@ -1,6 +1,6 @@
 {
   "name": "vuepress-plugin-md-tags",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "vuepress@1.x plugin",
   "main": "index.js",
   "scripts": {
