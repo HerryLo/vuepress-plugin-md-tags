@@ -43,6 +43,8 @@ module.exports = {
 
 ## 详细配置参数
 
+> 提示：提示：tag标签会被默认插入到h1标题下，建议h1文章标题添加到文章顶部，在文档中`# vuepress-plugin-md-tags` 会即是h1标题
+
 ```javascript
 module.exports = {
   "plugins": [
@@ -51,7 +53,7 @@ module.exports = {
       color: '#fff',  // 标签字体颜色
       borderColor: 'transparent', // 标签边框颜色
       background: 'rgb(45, 183, 245)', // 标签背景颜色
-      selector: '.page .content__default h1'
+      selector: '.page .content__default h1' // tag标签默认是放在h1标签下，建议h1文章标题添加到文章顶部
     }]
   ]
 }
