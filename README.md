@@ -8,7 +8,7 @@
 
 [文档tag插件示例](https://herrylo.github.io/vuepress-plugin/)
 
-[img](./asset/demo.png)
+[img](https://raw.githubusercontent.com/HerryLo/vuepress-plugin-md-tags/b5641170d16041ae8491e1e25395661b5e3625ec/asset/demo.png)
 
 适用于 [vuepress@1.x](https://vuepress.vuejs.org/zh/plugin/using-a-plugin.html) 的插件，参考tag样式可以查看 [link here](https://herrylo.github.io/vuepress-plugin/)，配置代码参考[link here](https://github.com/HerryLo/BlogPress/blob/master/docs/.vuepress/config.js#L225)
 
