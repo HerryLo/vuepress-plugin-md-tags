@@ -12,10 +12,6 @@
 </template>
 
 <script>
-/**
- * 使用预定于的变量，构建当前文章的标签列表
- * https://vuepress.vuejs.org/zh/guide/frontmatter.html#%E5%85%B6%E4%BB%96%E6%A0%BC%E5%BC%8F%E7%9A%84-front-matter
- */
 export default {
   props: {
     tags: {
@@ -104,7 +100,7 @@ export default {
   mounted() {},
   computed: {
     styleObject() {
-      if (this.config.type === "default" || this.config.type === "rainbow") {
+      if (this.config.type === "default") {
         return {
           color: this.tag.color,
           "border-color": this.tag.borderColor,
